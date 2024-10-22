@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Budi & Siti</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-image: url('https://example.com/background-pernikahan.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .couple-names {
+            font-family: 'Great Vibes', cursive;
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #d4af37;
+            text-align: center;
+        }
+        .date-venue {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .quote, .hadith {
+            font-size: 0.9em;
+            text-align: center;
+            margin: 30px 0;
+            padding: 15px;
+            background-color: #f9f7f7;
+            border-left: 4px solid #d4af37;
+        }
+        .map-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .map-container iframe {
+            width: 100%;
+            height: 250px;
+            border: none;
+            border-radius: 10px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #888;
+        }
+        .ornament {
+            text-align: center;
+            font-size: 1.5em;
+            color: #d4af37;
+            margin: 15px 0;
+        }
+        .couple-photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .couple-photo img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #d4af37;
+        }
+        .family-invitation {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f9f7f7;
+            border-radius: 10px;
+        }
+        .family-invitation h3 {
+            color: #d4af37;
+            margin-bottom: 20px;
+        }
+        .groom-family, .bride-family {
+            margin-bottom: 20px;
+        }
+        .groom-family h4, .bride-family h4 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                max-width: 800px;
+                padding: 40px;
+            }
+            .couple-names {
+                font-size: 4em;
+            }
+            .couple-photo img {
+                width: 300px;
+                height: 300px;
+            }
+            .quote, .hadith {
+                font-size: 1em;
+            }
+            .map-container iframe {
+                height: 300px;
+            }
+        }
+        
+        #audio-controls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .music-button {
+            background-color: #d4af37;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .music-button:hover {
+            background-color: #c19b2e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Undangan Pernikahan</h1>
+        <h2 class="couple-names">Budi & Siti</h2>
+        
+        <div class="couple-photo">
+            <img src="https://example.com/foto-budi-dan-siti.jpg" alt="Budi & Siti">
+        </div>
+
+        <div class="ornament">❦</div>
+
+        <div class="date-venue">
+            <p>Dengan rahmat Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami</p>
+            <p><strong>Tanggal:</strong> Sabtu, 1 Januari 2024</p>
+            <p><strong>Waktu:</strong> 10:00 WIB - selesai</p>
+            <p><strong>Tempat:</strong> Gedung Serbaguna Indah, Jl. Merdeka No. 123, Jakarta</p>
+        </div>
+
+        <div class="family-invitation">
+            <h3>Turut Mengundang:</h3>
+            <div class="groom-family">
+                <h4>Keluarga Mempelai Pria</h4>
+                <p>Bapak Ahmad & Ibu Siti<br>
+                Orang tua dari Budi</p>
+            </div>
+            <div class="bride-family">
+                <h4>Keluarga Mempelai Wanita</h4>
+                <p>Bapak Hasan & Ibu Aminah<br>
+                Orang tua dari Siti</p>
+            </div>
+        </div>
+
+        <div class="ornament">❦</div>
+
+        <div class="quote">
+            "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."<br>
+            (QS. Ar-Rum: 21)
+        </div>
+
+        <div class="hadith">
+            <h3>Hadis Nabi tentang Hikmah Pernikahan</h3>
+            <p>"Nikah itu sunnahku. Barangsiapa yang tidak mengamalkan sunnahku, maka ia bukan dari golonganku. Menikahlah, karena sesungguhnya aku akan berbangga dengan banyaknya umatku pada hari kiamat."</p>
+            <p>(HR. Ibnu Majah)</p>
+        </div>
+
+        <div class="map-container">
+            <h2>Lokasi</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6664463317476!2d106.82495931476882!3d-6.17540329555407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sMonumen%20Nasional!5e0!3m2!1sen!2sid!4v1617619825031!5m2!1sen!2sid" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="ornament">❦</div>
+
+        <div class="footer">
+            <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kami.</p>
+            <p>Kami yang berbahagia,</p>
+            <p>Budi & Siti</p>
+        </div>
+        
+        <div id="audio-controls">
+            <audio id="background-music" preload="auto" loop>
+                <source src="path/to/alhijrotu_original.mp3" type="audio/mpeg">
+                <source src="path/to/alhijrotu_original.ogg" type="audio/ogg">
+                Browser Anda tidak mendukung elemen audio.
+            </audio>
+            <p>Klik tombol di bawah untuk mendengarkan musik latar:</p>
+            <button id="toggleMusicBtn" class="music-button">Putar Musik</button>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var music = document.getElementById("background-music");
+                var toggleBtn = document.getElementById("toggleMusicBtn");
+
+                function toggleMusic() {
+                    if (music.paused) {
+                        music.play().then(() => {
+                            toggleBtn.textContent = "Jeda Musik";
+                        }).catch(error => {
+                            console.log("Pemutaran musik gagal:", error);
+                        });
+                    } else {
+                        music.pause();
+                        toggleBtn.textContent = "Putar Musik";
+                    }
+                }
+
+                toggleBtn.addEventListener('click', toggleMusic);
+
+                // Atur volume musik (opsional)
+                music.volume = 0.5; // Atur volume ke 50%
+            });
+        </script>
+    </div>
+</body>
+</html>
